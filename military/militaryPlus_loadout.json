@@ -2,26 +2,6 @@
     "spawnWeight": 1,
     "name": "Military - AKM",
     "characterTypes": [
-        "SurvivorM_Mirek",
-        "SurvivorM_Boris",
-        "SurvivorM_Cyril",
-        "SurvivorM_Denis",
-        "SurvivorM_Elias",
-        "SurvivorM_Francis",
-        "SurvivorM_Guo",
-        "SurvivorM_Hassan",
-        "SurvivorM_Indar",
-        "SurvivorM_Jose",
-        "SurvivorM_Kaito",
-        "SurvivorM_Lewis",
-        "SurvivorM_Manua",
-        "SurvivorM_Niki",
-        "SurvivorM_Oliver",
-        "SurvivorM_Peter",
-        "SurvivorM_Quinn",
-        "SurvivorM_Rolf",
-        "SurvivorM_Seth",
-        "SurvivorM_Taiki",
         "SurvivorF_Eva",
         "SurvivorF_Frida",
         "SurvivorF_Gabi",
@@ -39,10 +19,10 @@
             "slotName": "shoulderL",
             "discreteItemSets": [
                 {
-                    "itemType": "AKM",
+                    "itemType": "M4A1_Green",
                     "spawnWeight": 3,
                     "attributes": {
-                        "healthMin": 0.5,
+                        "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
@@ -50,34 +30,40 @@
                     "quickBarSlot": 1,
                     "complexChildrenTypes": [
                         {
-                            "itemType": "AK_PlasticBttstck",
+                            "itemType": "M4_MPBttstck",
                             "attributes": {
-                                "healthMin": 0.4,
-                                "healthMax": 0.6,
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
                                 "quantityMin": 1.0,
                                 "quantityMax": 1.0
                             },
                             "quickBarSlot": -1
                         },
                         {
-                            "itemType": "PSO1Optic",
+                            "itemType": "ACOGOptic_6x",
                             "attributes": {
-                                "healthMin": 0.1,
-                                "healthMax": 0.2,
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
                                 "quantityMin": 1.0,
                                 "quantityMax": 1.0
                             },
-                            "quickBarSlot": -1,
-                            "simpleChildrenUseDefaultAttributes": true,
-                            "simpleChildrenTypes": [
-                                "Battery9V"
-                            ]
+                            "quickBarSlot": -1
                         },
                         {
-                            "itemType": "Mag_AKM_30Rnd",
+                            "itemType": "M4_Suppressor",
                             "attributes": {
-                                "healthMin": 0.5,
-                                "healthMax": 0.5,
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "Mag_CMAG_30Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
                                 "quantityMin": 1.0,
                                 "quantityMax": 1.0
                             },
@@ -86,12 +72,11 @@
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [
-                        "AK_PlasticHndgrd",
-                        "AK_Bayonet"
+                        "M4_RISHndgrd_Green"
                     ]
                 },
                 {
-                    "itemType": "AKM",
+                    "itemType": "M4A1_Green",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -102,7 +87,7 @@
                     "quickBarSlot": 1,
                     "complexChildrenTypes": [
                         {
-                            "itemType": "AK_WoodBttstck",
+                            "itemType": "M4_MPBttstck",
                             "attributes": {
                                 "healthMin": 1.0,
                                 "healthMax": 1.0,
@@ -112,21 +97,27 @@
                             "quickBarSlot": -1
                         },
                         {
-                            "itemType": "PSO11Optic",
+                            "itemType": "ACOGOptic_6x",
                             "attributes": {
                                 "healthMin": 1.0,
                                 "healthMax": 1.0,
                                 "quantityMin": 1.0,
                                 "quantityMax": 1.0
                             },
-                            "quickBarSlot": -1,
-                            "simpleChildrenUseDefaultAttributes": true,
-                            "simpleChildrenTypes": [
-                                "Battery9V"
-                            ]
+                            "quickBarSlot": -1
                         },
                         {
-                            "itemType": "Mag_AKM_30Rnd",
+                            "itemType": "M4_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "Mag_CMAG_30Rnd",
                             "attributes": {
                                 "healthMin": 1.0,
                                 "healthMax": 1.0,
@@ -138,8 +129,7 @@
                     ],
                     "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [
-                        "AK_WoodHndgrd",
-                        "AK_Bayonet"
+                        "M4_RISHndgrd_Green"
                     ]
                 }
             ]
@@ -151,8 +141,8 @@
                     "itemType": "BaseballBat",
                     "spawnWeight": 2,
                     "attributes": {
-                        "healthMin": 0.5,
-                        "healthMax": 0.8,
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
@@ -162,8 +152,8 @@
                     "itemType": "Shovel",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 0.5,
-                        "healthMax": 0.8
+                        "healthMin": 1.0,
+                        "healthMax": 1.0
                     },
                     "quickBarSlot": 2
                 }
@@ -196,31 +186,31 @@
                     "itemType": "TaloonBag_Blue",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 0.5,
-                        "healthMax": 0.8,
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3,
                     "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [
-                        "Mag_AKM_Drum75Rnd"
+                        "Mag_STANAG_60Rnd"
                     ]
                 },
                 {
                     "itemType": "TaloonBag_Orange",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 0.5,
-                        "healthMax": 0.8,
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3,
                     "simpleChildrenUseDefaultAttributes": true,
                     "simpleChildrenTypes": [
-                        "Mag_AKM_30Rnd",
-                        "Mag_AKM_30Rnd"
+                        "Mag_CMAG_30Rnd",
+                        "Mag_CMAG_30Rnd"
                     ]
                 }
             ]
@@ -249,7 +239,7 @@
             "slotName": "Body",
             "discreteItemSets": [
                 {
-                    "itemType": "GorkaEJacket_Flat",
+                    "itemType": "USMCJacket_Woodland",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -265,7 +255,7 @@
             "slotName": "Legs",
             "discreteItemSets": [
                 {
-                    "itemType": "GorkaPants_Flat",
+                    "itemType": "USMCPants_Woodland",
                     "spawnWeight": 1,
                     "attributes": {
                         "healthMin": 1.0,
@@ -289,7 +279,11 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "M9A1_Bayonet"
+                    ]
                 }
             ]
         }
@@ -299,7 +293,7 @@
             "name": "Obelix",
             "spawnWeight": 1,
             "attributes": {
-                "healthMin": 0.5,
+                "healthMin": 1.0,
                 "healthMax": 1.0,
                 "quantityMin": 0.6,
                 "quantityMax": 0.8
@@ -321,10 +315,10 @@
                     ]
                 },
                 {
-                    "itemType": "Mag_AKM_30Rnd",
+                    "itemType": "Mag_CMAG_30Rnd",
                     "attributes": {
-                        "healthMin": 0.1,
-                        "healthMax": 0.8,
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
@@ -346,7 +340,7 @@
             "name": "Asterix",
             "spawnWeight": 1,
             "attributes": {
-                "healthMin": 0.5,
+                "healthMin": 1.0,
                 "healthMax": 1.0,
                 "quantityMin": 0.6,
                 "quantityMax": 0.8
@@ -356,7 +350,7 @@
                 "Canteen",
                 "Rag",
                 "Apple",
-                "AmmoBox_762x39_20Rnd",
+                "AmmoBox_556x45_20Rnd",
                 "CZ75",
                 "Mag_CZ75_15Rnd",
                 "AmmoBox_9x19_25rnd"
